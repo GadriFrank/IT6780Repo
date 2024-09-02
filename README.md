@@ -1,4 +1,4 @@
-#IT6780Repo
+# IT6780Repo
 IT 6780 701 2024 FALL Class
 
 
@@ -86,7 +86,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-- Thanks to the amazing contributor who made this project possible, myself, [firstname] [lastname].
+- Thanks to the amazing contributor who made this project possible, myself, Frank Gadri.
 - Inspiration from various recipe websites and cooking blogs.
 - Special thanks to the open-source community for providing great tools and libraries.
 - This project is designed and developed for my IT 6780 Course at Utah Valley University.
