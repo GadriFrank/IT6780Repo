@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Recipe Hub</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .sidebar {
+            width: 100px;
+            height: 100%;
+            position: fixed;
+            top:0;
+            left:0;
+            background-color: #97f59a;
+            padding: 25px;
+            box-shadow: 2px 0 5px rgba(97, 97, 97, 0.1);
+            margin-bottom: 20px;
+        }
+        .content {
+            padding: 20px;
+            flex: 1;
+        }
+        .footer {
+            background-color: #c2eed6;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            margin-top: 0;
+        }
+        .sidebar a {
+            display: block;
+            padding: 10px;
+            /*color: #050404;*/
+            font-weight: bold;
+            color: rgba(0, 0, 0, 0.967);
+            text-decoration: none;
+            margin-bottom: 5px;
+        }
+        .sidebar a:hover {
+            background-color: #cbf4e6;
+        }
+    </style>
+</head>
+<body>
+    {% include 'navbar.html' %}
+    {% include 'body.html' %}
+    {% include 'footer.html' %}
+</body>
+</html>
